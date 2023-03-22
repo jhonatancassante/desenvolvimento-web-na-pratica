@@ -1,12 +1,11 @@
-let a = 'Abacate';
+import Menu from "./components/Menu";
 
 function App() {
+
   return (
     <div>
-      <p>
-        Hello world! <br />
-        {a}
-      </p>
+      <Menu />
+      
     </div>
   );
 }
